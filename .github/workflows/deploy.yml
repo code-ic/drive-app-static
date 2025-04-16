@@ -5,6 +5,11 @@ on:
     branches:
       - main
 
+permissions:
+  contents: write    # 👈 allows the bot to push to the repo
+  pages: write
+  id-token: write
+
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
