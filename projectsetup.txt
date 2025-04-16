@@ -1,0 +1,47 @@
+src/
+├── assets/                 # Static assets like images, icons, fonts
+│   ├── images/
+│   └── styles/             # Global and module styles
+│       └── App.module.css
+│
+├── components/             # Reusable UI components
+│   ├── Navbar/
+│   │   ├── Navbar.jsx
+│   │   └── Navbar.module.css
+│   └── Button/
+│       ├── Button.jsx
+│       └── Button.module.css
+│
+├── layouts/                # Shared layouts for pages (e.g., with sidebar/header/footer)
+│   └── MainLayout.jsx
+│
+├── pages/                  # Top-level route-based components
+│   ├── Home.jsx
+│   ├── Dashboard.jsx
+│   └── Login.jsx
+│
+├── routes/                 # React Router configuration
+│   └── AppRoutes.jsx
+│
+├── services/               # API calls or logic related to external services
+│   ├── authService.js
+│   └── driveService.js
+│
+├── api/                    # Optional: setup for API client (e.g., axios instance)
+│   └── axios.js
+│
+├── hooks/                  # Custom React hooks
+│   └── useAuth.js
+│
+├── contexts/               # React Context providers
+│   └── AuthContext.jsx
+│
+├── utils/                  # Utility/helper functions
+│   └── formatDate.js
+│
+├── types/                  # Type definitions (if using TypeScript or JSDoc)
+│   └── user.d.ts
+│
+├── App.jsx                 # Root component
+├── main.jsx                # Vite/React DOM entry point
+└── index.css               # Global styles (optional)
