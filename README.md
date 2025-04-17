@@ -1,12 +1,13 @@
-# React + Vite
+Build a mock Google Drive Clone :
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+    [X] Add a NavBar with basic searchBar, usericon to the right and logo to top-left.
+    [X] Publish to Github Pages
+    [X] Add a folder nagivation part.
+    [X] Add breadcrumbs to show current directory and navigate back
+    [ ] Make search bar functional to search folder and select it
+    [ ] Make user icon on the right interactive
+    [ ] Create Add folder and delete folder for the session
+    [ ] Add toastify when folder created 
+    [ ] Add toastify when folder deleted
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
