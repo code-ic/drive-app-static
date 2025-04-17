@@ -1,48 +1,28 @@
-.folderrow {
-  height: 300px;
-  background-color: var(--mantine-color-body);
-  display: flex;
-  align-items: flex-start;
-  justify-content: flex-start;
-  gap: var(--mantine-spacing-md);
-  padding: var(--mantine-spacing-sm);
-  border: 1px solid var(--mantine-color-gray-3);
-  border-radius: var(--mantine-radius-md);
-  overflow-x: auto;
-}
-.folderButton {
-  background-color: var(--mantine-color-yellow-light);
-  border: 1px solid var(--mantine-color-yellow-6);
-  border-radius: var(--mantine-radius-sm);
-  color: var(--mantine-color-dark);
-  font-weight: 500;
-  width: 100px;
-  height: 80px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-  gap: 4px;
-  cursor: pointer;
-  transition: all 0.2s ease;
-}
-
-.folderButton:hover {
-  background-color: var(--mantine-color-yellow-2);
-}
-
-.test {
-  background-color: red;
+.breadcrumbs {
+  padding: 0.5rem 0;
+  font-size: 14px;
 }
 
 .tableWrapper {
   padding: 1rem;
-  justify-content: center;
   background-color: var(--mantine-color-body);
   border-radius: var(--mantine-radius-md);
   border: 1px solid var(--mantine-color-gray-3);
+  box-shadow: var(--mantine-shadow-sm);
 }
 
 .nameCell {
   font-weight: 500;
+  color: var(--mantine-color-blue-7);
+  cursor: pointer;
+  transition: color 0.2s ease;
+}
+
+.nameCell:hover {
+  color: var(--mantine-color-blue-5);
+}
+
+.tableRow:hover {
+  background-color: var(--mantine-color-gray-0);
+  cursor: pointer;
 }

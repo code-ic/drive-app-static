@@ -1,6 +1,7 @@
 import { IconSearch } from '@tabler/icons-react';
 import { Autocomplete, Group, Avatar } from '@mantine/core';
 import classes from './Navbar.module.css';
+import logo from '/gdrive.svg';
 
 function Navbar() {
 
@@ -8,9 +9,8 @@ function Navbar() {
     <header className={classes.header}>
       <div className={classes.inner}>
         <Group>
-          <img src="/g-drive.svg" alt="Logo" className={classes.logo} />
+          <img src={logo} alt="Logo" className={classes.logo} />
           <h1> Drive </h1>
-          {/* <MantineLogo size={28} /> */}
         </Group>
 
         <Group>
